@@ -1,0 +1,80 @@
+/*primary header*/
+h1 {
+	font-family: 'Chewy', cursive;
+	color: teal;
+	text-transform: uppercase;
+}
+
+/*body text*/
+p {
+	font-family: 'Seaweed Script', cursive;
+}
+
+/*links*/
+a:link,
+a:visited {
+	border-bottom: double black 1em;
+	padding: 1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+
+
+
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/*color pallet*/
+.color-1 {
+	background: teal;
+}
+.color-2 {
+	background: cornflowerblue;
+}
+.color-3 {
+	background: blue;
+}
+
+.pattern-1{
+	background-image: url("../img/basketball.png");
+	background-color: red;
+}
+ 
+.pattern-2 {
+	background-image: url("../img/brush.png");
+	background-color: gray;
+}
+
+.pattern-3 {
+	background-image: url("../img/brick.png");
+	background-color: purple;
+}
+
+
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
